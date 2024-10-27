@@ -38,4 +38,4 @@ for card in sorted(deck, key=lambda card : FrenchDeck.values.index(card.value) *
 
 from random import shuffle
 
-shuffle(deck)  # works because of __setitem__
+shuffle(deck)  # works because of __setitem__, would get an error otherwise
